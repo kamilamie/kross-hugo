@@ -34,7 +34,7 @@ skill:
 
 # experience
 experience:
-  enable : true
+  enable : false
   title : "Experience"
   item:
     - logo : "images/experience/icon-1.png"
@@ -54,7 +54,7 @@ experience:
 
 # education
 education:
-  enable : true
+  enable : false
   title : "Education"
   item:
     - title : "Marters in UX Design"
@@ -76,21 +76,21 @@ education:
 # service
 service:
   enable : true
-  title : "Services"
+  title : "Часто задаваемые вопросы"
   item:
-    - title : "UI Design"
-      icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Зачем мне нужен Dogger"
+      icon : "ti-help"
+      content : "Dogger - это приложение для тех, кто любит проводить время со своей собакой, но <br> ежедневные прогулки стали слишком однообразными </b>. Погулять с питомцем в новом месте или выйти на прогулку с новым знакомым - отличный способ разнообразить вашу жизнь!"
       highlighted : false
 
-    - title : "UX Design"
-      icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Как работают совместные прогулки?"
+      icon : "ti-location-pin"
+      content : "Вы можете создавать свои прогулки, для этого достаточно указать место и время встречи. Все другие пользователи могут найти ваше приглашение в списке или на карте и присоединиться к вам."
       highlighted : true
 
-    - title : "Interaction Design"
-      icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Где скачать?"
+      icon : "ti-mobile"
+      content : "Ищите нас в PlayMarket, в будущем планируется версия по iOS. Первый запуск приложения будет в городе Казань, затем планируется поддержка других городов."
       highlighted : false
 
 # portfolio
