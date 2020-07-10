@@ -1,4 +1,4 @@
-baseURL = "https://kross-test.netlify.com"
+baseURL = "https://relaxed-swirles-389e12.netlify.app"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
