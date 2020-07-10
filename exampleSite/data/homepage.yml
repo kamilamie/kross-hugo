@@ -14,7 +14,7 @@ about:
 # skill
 skill:
   enable : true
-  title : "Наше исследование:"
+  title : "Исследования"
   item:
     - title : "выгуливают свою собаку в одних и тех же местах"
       progress : "80%"
@@ -111,7 +111,7 @@ testimonial:
       content : "Всем привет, здрасте, добрый вечер, меня зовут Тимур, вот мой инстаграм @svoy.tim.baton"
 
     - name : "Артур Бадретдинов"
-      image : "images/testimonial/artur.jpg"
+      image : "images/testimonial/artur.png"
       designation : "CTO, Backend dev"
       content : "Спас проект"
 
@@ -126,7 +126,7 @@ testimonial:
       content: "Могу достать языком до носа"
 
     - name: "Эмиль Гафиятуллин"
-      image: "images/testimonial/emil.jpeg"
+      image: "images/testimonial/emil.png"
       designation: "Android dev"
       content: "Навел порядок"
 
