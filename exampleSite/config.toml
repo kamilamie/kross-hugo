@@ -1,50 +1,20 @@
-baseURL = "https://relaxed-swirles-389e12.netlify.app"
+# default configuration
+baseURL = "http://examplesite.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross"
-[[menu.main]]
-URL = "about"
-name = "About"
-weight = 1
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 2
-[[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
-weight = 3
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 4
-[params]
-address = "125/A, CA Commercial Area, California, USA"
-author = "Johnathan Smith"
-copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
-description = "This is meta description"
-email = "steve.fruits@email.com"
-google_analytics_id = ""
-home = "Home"
-logo = ""
-phone = "+880 2544 658 256"
-theme_color = "#41228e"
-[params.contact]
-enable = true
-form_action = "#"
-[params.map]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
+title = "Dogger"
+
+# css plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+
+
+# js plugin
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -55,18 +25,80 @@ link = "plugins/slick/slick.min.js"
 link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
+
+
+# menu
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 1
+
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 2
+
+[[menu.main]]
+URL = "portfolio"
+name = "Portfolio"
+weight = 3
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+
+
+# default parameters
+[params]
+home = "Home"
+logo = ""
+# theme color
+theme_color = "#41228e"
+# contact info
+phone = "+7 999 169 26 84"
+email = "itco.dogger@gmail.com"
+address = "ул. Петербургская, 52, Казань, Респ. Татарстан, 420074"
+# meta description
+author = "Johnathan Smith"
+description = "This is meta description"
+# google analytics
+google_analytics_id = "" # Your ID
+# copyright
+copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
+
+
+# preloader
 [params.preloader]
 enable = true
-preloader = ""
+preloader = "" # use png, jpg, svg or gif format
+
+# contact
+[params.contact]
+enable = true
+form_action = "#" # contact form works with : https://formspree.io
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
+map_latitude = "55.7805015"
+map_longitude = "49.1335273"
+map_marker = "images/marker.png"
+
+# social site
 [[params.social]]
-URL = "#"
 icon = "ti-facebook"
+URL = "https://www.facebook.com/timyr.badretdinov"
+
 [[params.social]]
-URL = "#"
 icon = "ti-instagram"
+URL = "https://www.instagram.com/svoy.tim.baton/"
+
 [[params.social]]
-URL = "#"
 icon = "ti-dribbble"
-[[params.social]]
 URL = "#"
+
+[[params.social]]
 icon = "ti-twitter-alt"
+URL = "https://twitter.com/britny1999"
