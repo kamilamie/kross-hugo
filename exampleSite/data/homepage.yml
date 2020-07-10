@@ -14,7 +14,7 @@ about:
 # skill
 skill:
   enable : true
-  title : "Опрос владельцев собак показал, что:"
+  title : "Наше исследование:"
   item:
     - title : "выгуливают свою собаку в одних и тех же местах"
       progress : "80%"
@@ -83,42 +83,57 @@ service:
       content : "Dogger - это приложение для тех, кто любит проводить время со своей собакой, но <br> ежедневные прогулки стали слишком однообразными </b>. Погулять с питомцем в новом месте или выйти на прогулку с новым знакомым - отличный способ разнообразить вашу жизнь!"
       highlighted : false
 
-    - title : "Как работают совместные прогулки?"
+    - title : "Как работает приложение?"
       icon : "ti-location-pin"
-      content : "Вы можете создавать свои прогулки, для этого достаточно указать место и время встречи. Все другие пользователи могут найти ваше приглашение в списке или на карте и присоединиться к вам."
+      content : "Вы можете создавать свои прогулки, а другие пользователи - находить ваше приглашение в списке или на карте и присоединяться к вам. Для вашего удобства карта содержит различные dog-friendly места по категориям: парки, кафе, магазины, для питомца."
       highlighted : true
 
     - title : "Где скачать?"
       icon : "ti-mobile"
-      content : "Ищите нас в PlayMarket, в будущем планируется версия по iOS. Первый запуск приложения будет в городе Казань, затем планируется поддержка других городов."
+      content : "На данный момент Dogger разрабатывается под Android, но в будущем планируется версия для iOS. Базовая версия приложения будет бесплатной. Первый запуск будет в городе Казань, но в дальнейшем планируется поддержка других городов."
       highlighted : false
 
 # portfolio
 portfolio:
   enable : true
-  title : "Portfolio"
+  title : "Функционал приложения"
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # testimonial
 testimonial:
   enable : true
-  title : "Testimonials"
+  title : "Наша команда"
   item:
-    - name : "Jesica Gomez"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name : "Тимур Бадретдинов"
+      image : "images/testimonial/timur.png"
+      designation : "CEO, Android dev"
+      content : "Всем привет, здрасте, добрый вечер, меня зовут Тимур, вот мой инстаграм @svoy.tim.baton"
 
-    - name : "Shirley Scot"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name : "Артур Бадретдинов"
+      image : "images/testimonial/artur.jpg"
+      designation : "CTO, Backend dev"
+      content : "Спас проект"
 
-    - name : "Jessica Julie"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    - name : "Олеся Насибуллина"
+      image : "images/testimonial/olesia.png"
+      designation : "Designer, Backend dev"
+      content : "Идеолог проекта, делаю самый современный дизайн, заказы не беру"
+
+    - name: "Камила Нигметзянова"
+        image: "images/testimonial/kamila.png"
+        designation: "Backend dev"
+        content: "Могу достать языком до носа"
+
+    - name: "Эмиль Гафиятуллин"
+        image: "images/testimonial/emil.jpeg"
+        designation: "Android dev"
+        content: "Навел порядок"
+
+    - name: "Айна Ардаширова"
+        image: "images/testimonial/aina.png"
+        designation: "SMM, Backend dev"
+        content: "Все интервью - через меня"
 
 # client logo slider
 clients_logo_slider:
