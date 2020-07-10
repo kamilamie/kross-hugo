@@ -1,40 +1,40 @@
 # banner
 banner:
-  title : "Dogger <br> приложение для владельцев собак"
+  title : "Hi! I’m <br> Christoher <br> UX designer"
 
 # about
 about:
   enable : true
-  content : "Dogger - это мобильное приложение для тех, кто хочет разнообразить свою жизнь и жизнь своих питомцев. Узнавайте о dog-friendly местах вашего города, участвуйте в совместных прогулках и заводите друзей!"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   button:
     enable : true
-    label : "узнать больше"
+    label : "know more"
     URL : "about"
 
 # skill
 skill:
   enable : true
-  title : "Наш опрос владельцев собак показал, что:"
+  title : "Skills"
   item:
-    - title : "выгуливают свою собаку в одних и тех же местах"
-      progress : "80%"
+    - title : "Web Design"
+      progress : "90%"
       color : "#fdb157"
 
-    - title : "хотят посещать с ними новые места"
-      progress : "90%"
+    - title : "Logo Design"
+      progress : "60%"
       color : "#9473e6"
 
-    - title : "заводят на прогулках новые знакомства"
-      progress : "87%"
+    - title : "After Effects"
+      progress : "80%"
       color : "#bdecf6"
 
-    - title : "поддерживают общение в дальнейшем"
-      progress : "81%"
+    - title : "Web App"
+      progress : "70%"
       color : "#ffbcaa"
 
 # experience
 experience:
-  enable : false
+  enable : true
   title : "Experience"
   item:
     - logo : "images/experience/icon-1.png"
@@ -54,7 +54,7 @@ experience:
 
 # education
 education:
-  enable : false
+  enable : true
   title : "Education"
   item:
     - title : "Marters in UX Design"
@@ -76,68 +76,53 @@ education:
 # service
 service:
   enable : true
-  title : "Часто задаваемые вопросы"
+  title : "Services"
   item:
-    - title : "Зачем мне нужен Dogger"
-      icon : "ti-help"
-      content : "Dogger - это приложение для тех, кто любит проводить время со своей собакой, но <br> ежедневные прогулки стали слишком однообразными </b>. Погулять с питомцем в новом месте или выйти на прогулку с новым знакомым - отличный способ разнообразить вашу жизнь!"
+    - title : "UI Design"
+      icon : "ti-palette"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : false
 
-    - title : "Как работают совместные прогулки"
-      icon : "ti-location-pin"
-      content : "Вы можете создавать свои прогулки, для этого достаточно указать место и время встречи. Все другие пользователи могут найти ваше приглашение в списке или на карте и присоединиться к вам. "
+    - title : "UX Design"
+      icon : "ti-vector"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : true
 
-    - title : "Где скачать?"
-      icon : "ti-mobile"
-      content : "Ищите нас в PlayMarket, в будущем планируется версия по iOS. Первый запуск приложения будет в городе Казань, затем планируется поддержка других городов."
+    - title : "Interaction Design"
+      icon : "ti-panel"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : false
 
 # portfolio
 portfolio:
   enable : true
-  title : "Функционал"
+  title : "Portfolio"
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # testimonial
 testimonial:
   enable : true
-  title : "Наша команда"
+  title : "Testimonials"
   item:
-    - name : "Тимур Бадретдинов"
+    - name : "Jesica Gomez"
       image : "images/testimonial/client-1.png"
-      designation : "CEO, Android dev"
+      designation : "CEO, Funder"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-    - name : "Артур Бадретдинов"
+    - name : "Shirley Scot"
       image : "images/testimonial/client-1.png"
-      designation : "CTO, Backend dev"
+      designation : "CEO, Funder"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-    - name : "Олеся Насибуллина"
+    - name : "Jessica Julie"
       image : "images/testimonial/client-1.png"
-      designation : "Designer, Backend dev"
+      designation : "CEO, Funder"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-    - name: "Камила Нигметзянова"
-        image: "images/testimonial/client-1.png"
-        designation: "Backend dev"
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-    - name: "Эмиль Гафиятуллин"
-        image: "images/testimonial/client-1.png"
-        designation: "Android dev"
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-    - name: "Айна Ардаширова"
-        image: "images/testimonial/client-1.png"
-        designation: "SMM-manager, Backend dev"
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 # client logo slider
 clients_logo_slider:
-  enable : false
+  enable : true
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "http://examplesite.com"
@@ -171,6 +156,6 @@ clients_logo_slider:
 
 # blog
 blog:
-  enable : false
+  enable : true
   title : "Blogs"
   # blog post comes from "content/blog" folder
