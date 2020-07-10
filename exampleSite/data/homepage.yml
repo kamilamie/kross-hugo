@@ -1,6 +1,6 @@
 # banner
 banner:
-  title : "Мобильное <br> приложение для собак<br> и их владельцев"
+  title : "Для собак <br> и их владельцев"
 
 # about
 about:
@@ -16,20 +16,20 @@ skill:
   enable : true
   title : "Опрос владельцев собак показал, что:"
   item:
-    - title : "Web Design"
-      progress : "90%"
+    - title : "выгуливают свою собаку в одних и тех же местах"
+      progress : "80%"
       color : "#fdb157"
 
-    - title : "Logo Design"
-      progress : "60%"
+    - title : "хотят посещать с ними новые места"
+      progress : "90%"
       color : "#9473e6"
 
-    - title : "After Effects"
-      progress : "80%"
+    - title : "заводят на прогулках новые знакомства"
+      progress : "87%"
       color : "#bdecf6"
 
-    - title : "Web App"
-      progress : "70%"
+    - title : "поддерживают общение в дальнейшем"
+      progress : "81%"
       color : "#ffbcaa"
 
 # experience
