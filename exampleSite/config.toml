@@ -2,7 +2,7 @@ baseURL = "https://relaxed-swirles-389e12.netlify.app"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross"
+title = "Dogger"
 [[menu.main]]
 URL = "about"
 name = "About"
@@ -20,15 +20,15 @@ URL = "contact"
 name = "Contact"
 weight = 4
 [params]
-address = "125/A, CA Commercial Area, California, USA"
+address = "ул. Петербургская, 52, Казань, Респ. Татарстан, 420074"
 author = "Johnathan Smith"
 copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
 description = "This is meta description"
-email = "steve.fruits@email.com"
+email = "itco.dogger@gmail.com"
 google_analytics_id = ""
 home = "Home"
 logo = ""
-phone = "+880 2544 658 256"
+phone = "+7 999 169 26 84"
 theme_color = "#41228e"
 [params.contact]
 enable = true
@@ -36,8 +36,8 @@ form_action = "#"
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "55.7805015"
+map_longitude = "49.1335273"
 map_marker = "images/marker.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -59,14 +59,14 @@ link = "plugins/google-map/map.js"
 enable = true
 preloader = ""
 [[params.social]]
-URL = "#"
+URL = "https://www.facebook.com/timyr.badretdinov"
 icon = "ti-facebook"
 [[params.social]]
-URL = "#"
+URL = "https://www.instagram.com/svoy.tim.baton/"
 icon = "ti-instagram"
 [[params.social]]
 URL = "#"
 icon = "ti-dribbble"
 [[params.social]]
-URL = "#"
+URL = "https://twitter.com/britny1999"
 icon = "ti-twitter-alt"
