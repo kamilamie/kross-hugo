@@ -5,16 +5,16 @@ banner:
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "Dogger - это мобильное приложение для тех, кто хочет разнообразить свою жизнь и жизнь своих питомцев. Узнавайте о dog-friendly местах вашего города, участвуйте в совместных прогулках и заводите друзей!"
   button:
     enable : true
-    label : "know more"
+    label : "узнать больше"
     URL : "about"
 
 # skill
 skill:
   enable : true
-  title : "Skills"
+  title : "Опрос владельцев собак показал, что:"
   item:
     - title : "Web Design"
       progress : "90%"
