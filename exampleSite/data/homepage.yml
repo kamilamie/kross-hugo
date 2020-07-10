@@ -121,19 +121,19 @@ testimonial:
       content : "Идеолог проекта, делаю самый современный дизайн, заказы не беру"
 
     - name: "Камила Нигметзянова"
-        image: "images/testimonial/kamila.png"
-        designation: "Backend dev"
-        content: "Могу достать языком до носа"
+      image: "images/testimonial/kamila.png"
+      designation: "Backend dev"
+      content: "Могу достать языком до носа"
 
     - name: "Эмиль Гафиятуллин"
-        image: "images/testimonial/emil.jpeg"
-        designation: "Android dev"
-        content: "Навел порядок"
+      image: "images/testimonial/emil.jpeg"
+      designation: "Android dev"
+      content: "Навел порядок"
 
     - name: "Айна Ардаширова"
-        image: "images/testimonial/aina.png"
-        designation: "SMM, Backend dev"
-        content: "Все интервью - через меня"
+      image: "images/testimonial/aina.png"
+      designation: "SMM, Backend dev"
+      content: "Все интервью - через меня"
 
 # client logo slider
 clients_logo_slider:
