@@ -190,12 +190,12 @@
           <h2 class="section-title">{{ site.Data.homepage.portfolio.title | markdownify }}</h2>
         </div>
       </div>
-      <div class="row shuffle-wrapper">
+      <div class="row">
         {{ $item:= site.Data.homepage.portfolio.item_show }}
         {{ range first $item (where .Site.RegularPages "Section" "portfolio") }}
         <div class="col-lg-2 col-6 mb-4 shuffle-item">
           <div class="position-relative rounded hover-wrapper">
-            <img src="{{.Params.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="{{.Params.image | absURL }}" style="border: black" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <button class="btn btn-light btn-sm">{{.Params.title}}</button>
