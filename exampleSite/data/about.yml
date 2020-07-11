@@ -45,6 +45,10 @@ team:
       image: "images/team/aina.jpg"
       designation: "Backend developer"
 
+    - title: "Степан Курин"
+        image: "images/team/stepa.jpg"
+        designation: "Quality engineer"
+
 
 # client logo slider
 clients_logo_slider:
