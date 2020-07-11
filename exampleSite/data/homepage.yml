@@ -121,12 +121,12 @@ testimonial:
     - name : "Олеся Насибуллина"
       image : "images/testimonial/olesia.png"
       designation : "Designer, Backend dev"
-      content : "Идеолог проекта, делаю самый современный дизайн, заказы не беру"
+      content : "Идеолог проекта, делаю самый современный дизайн, только для своих йоу"
 
     - name: "Камила Нигметзянова"
       image: "images/testimonial/kamila.png"
       designation: "Backend dev"
-      content: "Могу достать языком до носа"
+      content: "Бла бла бла"
 
     - name: "Эмиль Гафиятуллин"
       image: "images/testimonial/emil.png"
