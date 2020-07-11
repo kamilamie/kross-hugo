@@ -193,12 +193,14 @@
       <div class="row">
         {{ $item:= site.Data.homepage.portfolio.item_show }}
         {{ range first $item (where .Site.RegularPages "Section" "portfolio") }}
-        <div class="col-lg-2 col-6 mb-4">
+        <div class="col-lg-2 col-6 mb-4 shuffle-item">
           <div class="position-relative rounded hover-wrapper">
             <img src="{{.Params.image | absURL }}" style="border: black" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
-                <span class="btn btn-sm btn-light">{{.Params.title}}</span>
+                <p class="text-white">
+                  <b>{{.Params.title}}</b>
+                </p>
               </div>
             </div>
           </div>
