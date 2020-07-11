@@ -3,15 +3,15 @@ work_process:
   enable : true
   title : "Work Process"
   item:
-  - title : "Research and Plan"
+  - title : "Опросы и проблемное интервью"
     icon : "images/icons/plan.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
-  - title : "Design and Develop"
+  - title : "Проектирование и разработка"
     icon : "images/icons/design.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     
-  - title : "Deliver"
+  - title : "Первый релиз"
     icon : "images/icons/print.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
@@ -19,35 +19,35 @@ work_process:
 # team
 team:
   enable: true
-  title : "My Team"
+  title : "Команда"
   team_member:
-    - title : "Jack Schenziwe"
-      image : "images/team/member-1.png"
-      designation : "Project Manager"
+    - title : "Тимур Бадретдинов"
+      image : "images/team/timur.jpg"
+      designation : "CEO, Android developer"
       
-    - title : "Julias Carlie"
-      image : "images/team/member-2.png"
-      designation : "Web Developer"
+    - title : "Олеся Насибуллина"
+      image : "images/team/olesia.jpg"
+      designation : "Designer, Backend developer"
       
-    - title : "John Doe"
-      image : "images/team/member-3.png"
-      designation : "Designer"
+    - title : "Артур Бадретдинов"
+      image : "images/team/artur.jpg"
+      designation : "CTO, Backend developer"
 
-    - title: "Jack Schenziwe"
-      image: "images/team/member-1.png"
-      designation: "Project Manager"
+    - title: "Камила Нигметзянова"
+      image: "images/team/kamila.jpg"
+      designation: "Backend developer"
 
-    - title: "Julias Carlie"
-      image: "images/team/member-2.png"
-      designation: "Web Developer"
+    - title: "Эмиль Гафиятуллин"
+      image: "images/team/emil.jpeg"
+      designation: "Android developer"
 
-    - title: "John Doe"
-      image: "images/team/member-3.png"
-      designation: "Designer"
+    - title: "Айна Ардаширова"
+      image: "images/team/aina.jpg"
+      designation: "Backend developer"
 
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   title : "My Clients"
   # clients logo comes from 'data/homepage.yml' file
