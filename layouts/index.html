@@ -200,7 +200,7 @@
       {{ $item:= site.Data.homepage.portfolio.item_show }}
       {{ range first $item (where .Site.RegularPages "Section" "portfolio") }}
       <div class="col-lg-2 col-6 mb-4 shuffle-item">
-        <div class="position-relative rounded hover-wrapper" style="border: 1px solid black">
+        <div class="position-relative rounded hover-wrapper" style="border: 1px solid darkgrey">
           <img src="{{.Params.image | absURL }}" style="border: black" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
