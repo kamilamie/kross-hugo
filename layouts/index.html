@@ -90,6 +90,12 @@
         </div>
         {{ end }}
       </div>
+
+      {{ if .button.enable }}
+      {{ with .button }}
+      <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.label}}</a>
+      {{ end }}
+      {{ end }}
     </div>
   </section>
   <!-- /skills -->

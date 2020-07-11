@@ -17,7 +17,7 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ site.BaseURL }}">{{ with site.Params.Home }} {{ . }} {{ end }}</a>
         </li>
-        <!--{{ $current := . }}
+        {{ $current := . }}
         {{ range site.Menus.main }}
         {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
         {{ $active = or $active (eq .Name $current.Title) }}
@@ -37,7 +37,7 @@
           <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
         </li>
         {{ end }}
-        {{ end }}-->
+        {{ end }}
       </ul>
     </div>
   </nav>
