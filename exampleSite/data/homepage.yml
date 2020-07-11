@@ -27,7 +27,7 @@ skill:
       color : "#bdecf6"
       preposition: ""
 
-    - title : "никогда не поддерживают общение в дальнейшем"
+    - title : "не поддерживают общение в дальнейшем"
       progress : "19%"
       color : "#ffbcaa"
       preposition: "Но только"
@@ -110,37 +110,23 @@ service:
 # testimonial
 testimonial:
   enable : true
-  title : "Команда"
+  title : "Отзывы пользователей"
   item:
-    - name : "Тимур Бадретдинов"
-      image : "images/testimonial/timur.png"
-      designation : "CEO, Android dev"
-      content : "Всем привет, здрасте, добрый вечер, меня зовут Тимур, вот мой инстаграм @svoy.tim.baton"
+    - name : "мама Леси"
+      image : "images/testimonial/client-1.png"
+      designation : "Владелец собаки Тесла"
+      content : "Классное приложение"
 
-    - name : "Артур Бадретдинов"
-      image : "images/testimonial/artur.png"
-      designation : "CTO, Backend dev"
-      content : "Спас проект"
+    - name: "мама Леси"
+        image: "images/testimonial/client-1.png"
+        designation: "Владелец собаки Тесла"
+        content: "Классное приложение"
 
-    - name : "Олеся Насибуллина"
-      image : "images/testimonial/olesia.png"
-      designation : "Designer, Backend dev"
-      content : "Идеолог проекта, делаю самый современный дизайн, только для своих йоу"
+    - name: "мама Леси"
+        image: "images/testimonial/client-1.png"
+        designation: "Владелец собаки Тесла"
+        content: "Классное приложение"
 
-    - name: "Камила Нигметзянова"
-      image: "images/testimonial/kamila.png"
-      designation: "Backend dev"
-      content: "Бла бла бла"
-
-    - name: "Эмиль Гафиятуллин"
-      image: "images/testimonial/emil.png"
-      designation: "Android dev"
-      content: "Навел порядок"
-
-    - name: "Айна Ардаширова"
-      image: "images/testimonial/aina.png"
-      designation: "SMM, Backend dev"
-      content: "Все интервью - через меня"
 
 # client logo slider
 clients_logo_slider:

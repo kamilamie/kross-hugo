@@ -5,15 +5,15 @@ work_process:
   item:
   - title : "Опросы и проблемное интервью"
     icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Мы провели опрос более 300 владельцев собак, который помог нам определить основной функционал приложения"
     
   - title : "Проектирование и разработка"
     icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "Активная разработка MVP заняла около месяца, были привлечены и другие разработчики"
     
-  - title : "Первый релиз"
+  - title : "Первый релиз в июле 2020"
     icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "MVP включил в себя следующий функционал: профиль, прогулки и их создание, карта с dog-friendly местами"
 
 
 # team
