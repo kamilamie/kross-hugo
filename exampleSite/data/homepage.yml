@@ -15,18 +15,22 @@ skill:
     - title : "выгуливают свою собаку в одних и тех же местах"
       progress : "80%"
       color : "#fdb157"
+      preposition: ""
 
-    - title : "хотят посещать с ними новые места"
-      progress : "90%"
+    - title : "это устраивает"
+      progress : "10%"
       color : "#9473e6"
+      preposition: "но только"
 
     - title : "заводят на прогулках новые знакомства"
       progress : "87%"
       color : "#bdecf6"
+      preposition: ""
 
     - title : "поддерживают общение в дальнейшем"
       progress : "81%"
       color : "#ffbcaa"
+      preposition: ""
   button:
     enable: true
     label: "узнать больше"

@@ -62,6 +62,45 @@
   <!-- /about -->
   {{ end }}
 
+
+  {{ if site.Data.homepage.skill.enable }}
+  {{ with site.Data.homepage.skill }}
+  <!-- skills -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+        </div>
+        {{ range .item }}
+        <div class="col-lg-3 col-sm-6 mb-4">
+          <div class="card shadow text-center">
+            <div class="position-relative rounded-top progress-wrapper" data-color="{{.color}}">
+              <div class="wave" data-progress="{{.progress}}"></div>
+            </div>
+            <div class="card-footer bg-white">
+              <h4 class="card-title">{{.preposition}} {{.progress}} владельцев {{.title }}</h4>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+      {{ if .button.enable }}
+      {{ with .button }}
+      <div class="col-lg-10 mx-auto text-center">
+        <a href="{{ .URL | absURL }}" class="btn btn-transparent text-center">{{.label}}</a>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  <!-- /skills -->
+  {{ end }}
+  {{ end }}
+
+
+
   {{ if site.Data.homepage.portfolio.enable }}
   <!-- portfolio -->
   <section class="section">
@@ -94,42 +133,6 @@
   {{ end }}
 
 
-
-  {{ if site.Data.homepage.skill.enable }}
-  {{ with site.Data.homepage.skill }}
-  <!-- skills -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
-        </div>
-        {{ range .item }}
-        <div class="col-lg-3 col-sm-6 mb-4">
-          <div class="card shadow text-center">
-            <div class="position-relative rounded-top progress-wrapper" data-color="{{.color}}">
-              <div class="wave" data-progress="{{.progress}}"></div>
-            </div>
-            <div class="card-footer bg-white">
-              <h4 class="card-title">{{.progress}} владельцев {{.title }}</h4>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-
-      {{ if .button.enable }}
-      {{ with .button }}
-      <div class="col-lg-10 mx-auto text-center">
-        <a href="{{ .URL | absURL }}" class="btn btn-transparent text-center">{{.label}}</a>
-      </div>
-      {{ end }}
-      {{ end }}
-    </div>
-  </section>
-  <!-- /skills -->
-  {{ end }}
-  {{ end }}
 
   {{ if site.Data.homepage.experience.enable }}
   {{ with site.Data.homepage.experience }}
