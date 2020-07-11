@@ -1,11 +1,11 @@
 ---
-title: "Профиль"
+title: "2"
 date: 2019-05-12T12:14:34+06:00
 image: "images/portfolio/profile.png"
 client: "John Doe"
 project_url : "https://themefisher.com/"
 categories: ["design","development"]
-description: "This is meta description."
+description: "Профиль"
 draft: false
 ---
 

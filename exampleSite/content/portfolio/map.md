@@ -1,11 +1,11 @@
 ---
-title: "Карта"
+title: "3"
 date: 2019-05-12T12:14:34+06:00
 image: "images/portfolio/map.png"
 client: "John Doe"
 project_url : "https://themefisher.com/"
 categories: ["design","development"]
-description: "This is meta description."
+description: "Карта"
 draft: false
 ---
 
