@@ -17,20 +17,20 @@ skill:
       color : "#fdb157"
       preposition: ""
 
-    - title : "это устраивает"
-      progress : "10%"
+    - title : "хотят посещать с ними новые места"
+      progress : "90%"
       color : "#9473e6"
-      preposition: "но только"
+      preposition: "И"
 
     - title : "заводят на прогулках новые знакомства"
       progress : "87%"
       color : "#bdecf6"
       preposition: ""
 
-    - title : "поддерживают общение в дальнейшем"
-      progress : "81%"
+    - title : "никогда не поддерживают общение в дальнейшем"
+      progress : "19%"
       color : "#ffbcaa"
-      preposition: ""
+      preposition: "Но только"
   button:
     enable: true
     label: "узнать больше"
