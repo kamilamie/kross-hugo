@@ -1,4 +1,4 @@
-baseURL = "https://relaxed-swirles-389e12.netlify.app"
+baseURL = "https://dogger-app.netlify.app"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
@@ -7,18 +7,6 @@ title = "Dogger"
 URL = "about"
 name = "About"
 weight = 1
-#[[menu.main]]
-#URL = "blog"
-#name = "Blog"
-#weight = 2
-#[[menu.main]]
-#URL = "portfolio"
-#name = "Portfolio"
-#weight = 3
-#[[menu.main]]
-#URL = "contact"
-#name = "Contact"
-#weight = 4
 [params]
 address = "ул. Петербургская, 52, Казань, Респ. Татарстан, 420074"
 author = "Команда Dogger"
