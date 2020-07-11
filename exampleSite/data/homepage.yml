@@ -117,12 +117,12 @@ testimonial:
       designation : "Владелец собаки Тесла"
       content : "Классное приложение"
 
-    - name: "мама Леси"
+    - name : "мама Леси"
         image: "images/testimonial/client-1.png"
         designation: "Владелец собаки Тесла"
         content: "Классное приложение"
 
-    - name: "мама Леси"
+    - name : "мама Леси"
         image: "images/testimonial/client-1.png"
         designation: "Владелец собаки Тесла"
         content: "Классное приложение"
