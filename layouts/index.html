@@ -54,11 +54,6 @@
         <div class="col-lg-10 mx-auto text-center">
           {{ with site.Data.homepage.about }}
           <p class="font-secondary lead text-dark">{{.content | markdownify}}</p>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.label}}</a>
-          {{ end }}
-          {{ end }}
           {{ end }}
         </div>
       </div>
@@ -66,6 +61,38 @@
   </section>
   <!-- /about -->
   {{ end }}
+
+  {{ if site.Data.homepage.portfolio.enable }}
+  <!-- portfolio -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{ site.Data.homepage.portfolio.title | markdownify }}</h2>
+        </div>
+      </div>
+      <div class="row">
+        {{ $item:= site.Data.homepage.portfolio.item_show }}
+        {{ range first $item (where .Site.RegularPages "Section" "portfolio") }}
+        <div class="col-lg-2 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="{{.Params.image | absURL }}" style="border: black" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <p class="text-white">
+                  <b>{{.Params.title}}</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /portfolio -->
+  {{ end }}
+
 
 
   {{ if site.Data.homepage.skill.enable }}
@@ -93,7 +120,9 @@
 
       {{ if .button.enable }}
       {{ with .button }}
-      <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.label}}</a>
+      <div class="col-lg-10 mx-auto text-center">
+        <a href="{{ .URL | absURL }}" class="btn btn-transparent text-center">{{.label}}</a>
+      </div>
       {{ end }}
       {{ end }}
     </div>
@@ -186,37 +215,6 @@
   {{ end }}
   {{ end }}
 
-
-  {{ if site.Data.homepage.portfolio.enable }}
-  <!-- portfolio -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">{{ site.Data.homepage.portfolio.title | markdownify }}</h2>
-        </div>
-      </div>
-      <div class="row">
-        {{ $item:= site.Data.homepage.portfolio.item_show }}
-        {{ range first $item (where .Site.RegularPages "Section" "portfolio") }}
-        <div class="col-lg-2 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="{{.Params.image | absURL }}" style="border: black" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <p class="text-white">
-                  <b>{{.Params.title}}</b>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </section>
-  <!-- /portfolio -->
-  {{ end }}
 
 
   {{ if site.Data.homepage.testimonial.enable }}
