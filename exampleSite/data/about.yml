@@ -1,7 +1,7 @@
 # work process
 work_process:
   enable : true
-  title : "Work Process"
+  title : "Рабочий процесс"
   item:
   - title : "Опросы и проблемное интервью"
     icon : "images/icons/plan.png"
