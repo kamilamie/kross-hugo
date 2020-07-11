@@ -97,7 +97,7 @@ service:
 portfolio:
   enable : true
   title : "Функционал приложения"
-  item_show : 4
+  item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # testimonial
