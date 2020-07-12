@@ -112,20 +112,20 @@ testimonial:
   enable : true
   title : "Отзывы пользователей"
   item:
-    - name : "мама Леси"
-      image : "images/testimonial/client-1.png"
-      designation : "Владелец собаки Тесла"
-      content : "Классное приложение"
+    - name : "Ольга Насибуллина"
+      image : "images/testimonial/olesiaMom.png"
+      designation : "Хозяин собаки Тесла, порода - джек-рассел-терьер"
+      content : "Классное приложение!"
 
-    - name : "мама Леси"
+    - name : "Айнура Калмурзаева"
       image: "images/testimonial/client-1.png"
-      designation: "Владелец собаки Тесла"
+      designation: "Хозяин собаки Лайка"
       content: "Классное приложение"
 
-    - name : "мама Леси"
-      image: "images/testimonial/client-1.png"
-      designation: "Владелец собаки Тесла"
-      content: "Классное приложение"
+    - name : "Аделя Гайфутдинова"
+      image: "images/testimonial/adelya.jpg"
+      designation: "Хозяин собаки Арчи, порода - хаски"
+      content: "Мою собаку необходимо выгуливать несколько раз в день, что надоедает. Спасибо Вашему приложению за то, что разнообразили наши пробежки!"
 
 
 # client logo slider
