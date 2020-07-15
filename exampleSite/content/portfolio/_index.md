@@ -1,5 +1,5 @@
 ---
 title: "Portfolio"
-description: "This is meta description."
+description: "Dogger app"
 draft: false
 ---
