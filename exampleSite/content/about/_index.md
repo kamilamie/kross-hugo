@@ -1,5 +1,5 @@
 ---
-title: "О нас"
+title: "О проекте"
 description: "This is meta description."
 author_image : "images/about/team-cropped.jpg"
 draft: false

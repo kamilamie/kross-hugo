@@ -9,7 +9,7 @@ name = "About"
 weight = 1
 [params]
 address = "ул. Петербургская, 52, Казань, Респ. Татарстан, 420074"
-author = "Команда Dogger"
+author = "Основатели проекта"
 copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
 description = "Приложение для владельцев собак"
 email = "itco.dogger@gmail.com"
