@@ -1,7 +1,7 @@
 ---
 title: "О нас"
 description: "This is meta description."
-author_image : "images/about/team2.jpg"
+author_image : "images/about/team.jpg"
 draft: false
 ---
 
