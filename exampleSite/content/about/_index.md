@@ -1,6 +1,6 @@
 ---
 title: "О проекте"
-description: "This is meta description."
+description: "О проекте Dogger"
 author_image : "images/about/team-cropped.jpg"
 draft: false
 ---
